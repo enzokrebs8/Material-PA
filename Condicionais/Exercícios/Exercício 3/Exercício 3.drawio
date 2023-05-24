@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2023-05-18T15:45:15.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3oWqqkfaVSP-qjt9YxBR" version="21.3.2" type="onedrive">
+  <diagram name="Página-1" id="4A8-Q1RhGt5hnyVcIdiA">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZVJAGzFUtEZdULjIVxh-1" target="qZVJAGzFUtEZdULjIVxh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-1" value="Início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qZVJAGzFUtEZdULjIVxh-2" target="qZVJAGzFUtEZdULjIVxh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-2" value="&quot;Você é maior de idade. Já pode ser preso hein?! &amp;gt;:)&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZVJAGzFUtEZdULjIVxh-3" target="qZVJAGzFUtEZdULjIVxh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZVJAGzFUtEZdULjIVxh-3" target="qZVJAGzFUtEZdULjIVxh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-3" value="nome, idade" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qZVJAGzFUtEZdULjIVxh-5" target="qZVJAGzFUtEZdULjIVxh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-5" value="&quot;Você é menor de idade. Haha, ala, ainda é little kid&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qZVJAGzFUtEZdULjIVxh-8" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
