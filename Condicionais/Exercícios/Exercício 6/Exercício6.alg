@@ -14,30 +14,14 @@ leia(temperatura)
 
 //processamento
 
-Teste1
-
 se (temperatura < 20) entao
    escreval("Quem libertou a Elsa de Frozen de dentro do congelador? Estou congelando de frio!")
    senao
-      se (temperatura < 25) entao
+      se (temperatura <= 25) e (temperatura >= 20) entao
           escreval("Hoje o cima está normal, ameno.")
         senao
           escreva("Quem deixou o aquecedor ligado? Meu Deus que calor!")
         fimse
      fimse
-
-Teste2
-
-se temperatura < 20 entao
-      sensacao <- "frio"
-   senao
-      se temperatura >= 20 e temperatura <= 25 entao
-         sensacao <- "normal"
-      senao
-         sensacao <- "calor"
-      fimse
-   fimse
-
-escreva("A sensação térmica é: ", sensacao)
 
 fimalgoritmo
