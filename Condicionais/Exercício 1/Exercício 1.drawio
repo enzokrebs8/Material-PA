@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-05-26T00:08:43.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0 (Edition std-1)" etag="S8gJur3tllIOUKi-pEXD" version="21.3.4" type="onedrive">
+  <diagram name="Página-1" id="Um9HZnOgq5txmJUt7RVh">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RzPkIloskTGr9jzte8C4-1" target="ny9L2aXghLUDF6D1jDKu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzPkIloskTGr9jzte8C4-1" value="Início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ny9L2aXghLUDF6D1jDKu-1" target="ny9L2aXghLUDF6D1jDKu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-1" value="idade" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ny9L2aXghLUDF6D1jDKu-3" target="ny9L2aXghLUDF6D1jDKu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ny9L2aXghLUDF6D1jDKu-3" target="ny9L2aXghLUDF6D1jDKu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-3" value="(idade &amp;gt;=10)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="530" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ny9L2aXghLUDF6D1jDKu-4" target="ny9L2aXghLUDF6D1jDKu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-4" value="&quot;Boa jogatina!&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ny9L2aXghLUDF6D1jDKu-5" target="ny9L2aXghLUDF6D1jDKu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-5" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&quot;Esse jogo não é recomendado para crianças menores de 10 anos de idade!&quot;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="600" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ny9L2aXghLUDF6D1jDKu-8" value="Fim" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
