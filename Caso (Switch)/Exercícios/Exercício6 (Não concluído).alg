@@ -1,48 +1,90 @@
-algoritmo "VotaÁ„o MISS ETEC MCM"
+algoritmo "Vota√ß√£o MISS ETEC MCM"
+algoritmo "Vota√ß√£o MISS ETEC MCM"
 
 var
-   voto, votoTotalFulana, votoTotalCiclana, votoTotalBeltrana: inteiro
-   votoMedioFulana, votoMedioCiclana, votoMedioBeltrana: real
-   jurado: inteiro
+
+voto, , , cand30: inteiro
 
 inicio
    votoTotalFulana <- 0
    votoTotalCiclana <- 0
    votoTotalBeltrana <- 0
 
-      escreval("Jurado ", jurado, ": Digite o voto para a candidata Fulana (10), Ciclana (20) ou Beltrana (30): ")
-      leia(voto)
+escreval ("VOTO DO JURADO 1")
+
+escreval ("Digite 10 para votar em Fulano")
+escreval ("Digite 20 para votar em Ciclano")
+escreval ("Digite 30 para votar em Beltrano")
+leia (voto)
       
-   escolha voto
-      caso 10
-            votoTotalFulana <- votoTotalFulana + voto
-      caso 20
-            votoTotalCiclana <- votoTotalCiclana + voto
-      caso 30
-            votoTotalBeltrana <- votoTotalBeltrana + voto
-         outrocaso
-            escreva("Voto inv·lido!")
-      fimescolha
+escolha voto
+        caso 10
+             cand10 <- cand10 + 1
+        caso 20
+             votoTotalCiclana <- votoTotalCiclana + voto
+        caso 30
+             votoTotalBeltrana <- votoTotalBeltrana + voto
+        outrocaso
+            escreva("Voto inv√°lido!")
+fimescolha
+limpatela
 
+escreval ("VOTO DO JURADO 2")
 
-   votoMedioFulana <- votoTotalFulana / 4.0
-   votoMedioCiclana <- votoTotalCiclana / 4.0
-   votoMedioBeltrana <- votoTotalBeltrana / 4.0
+escreval ("Digite 10 para votar em Fulano")
+escreval ("Digite 20 para votar em Ciclano")
+escreval ("Digite 30 para votar em Beltrano")
+leia (voto)
 
-   escreva("Total de votos da Fulana: ", votoTotalFulana, " - Voto mÈdio: ", votoMedioFulana)
-   escreva("Total de votos da Ciclana: ", votoTotalCiclana, " - Voto mÈdio: ", votoMedioCiclana)
-   escreva("Total de votos da Beltrana: ", votoTotalBeltrana, " - Voto mÈdio: ", votoMedioBeltrana)
+escolha voto
+        caso 10
+             votoTotalFulana <- votoTotalFulana + voto
+        caso 20
+             votoTotalCiclana <- votoTotalCiclana + voto
+        caso 30
+             votoTotalBeltrana <- votoTotalBeltrana + voto
+        outrocaso
+            escreva("Voto inv√°lido!")
+fimescolha
+limpatela
 
-   se (votoTotalFulana > votoTotalCiclana) e (votoTotalFulana > votoTotalBeltrana) entao
-      escreval("A vencedora È a Fulana!")
-   se (votoTotalCiclana > votoTotalFulana) e (votoTotalCiclana > votoTotalBeltrana) entao
-      escreval("A vencedora È a Ciclana!")
-   se (votoTotalBeltrana > votoTotalFulana) e (votoTotalBeltrana > votoTotalCiclana) entao
-      escreval("A vencedora È a Beltrana!")
-   senao
-      escreva("Empate entre as candidatas!")
-   fimse
-   fimse
-   fimse
+escreval ("VOTO DO JURADO 3")
+
+escreval ("Digite 10 para votar em Fulano")
+escreval ("Digite 20 para votar em Ciclano")
+escreval ("Digite 30 para votar em Beltrano")
+leia (voto)
+
+escolha voto
+        caso 10
+             votoTotalFulana <- votoTotalFulana + voto
+        caso 20
+             votoTotalCiclana <- votoTotalCiclana + voto
+        caso 30
+             votoTotalBeltrana <- votoTotalBeltrana + voto
+        outrocaso
+            escreva("Voto inv√°lido!")
+fimescolha
+limpatela
+
+escreval ("VOTO DO JURADO 4")
+
+escreval ("Digite 10 para votar em Fulano")
+escreval ("Digite 20 para votar em Ciclano")
+escreval ("Digite 30 para votar em Beltrano")
+leia (voto)
+
+escolha voto
+        caso 10
+             votoTotalFulana <- votoTotalFulana + voto
+        caso 20
+             votoTotalCiclana <- votoTotalCiclana + voto
+        caso 30
+             votoTotalBeltrana <- votoTotalBeltrana + voto
+        outrocaso
+            escreva("Voto inv√°lido!")
+fimescolha
+
+se
 
 fimalgoritmo
